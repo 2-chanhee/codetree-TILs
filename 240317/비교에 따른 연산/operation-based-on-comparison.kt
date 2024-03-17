@@ -7,8 +7,7 @@ fun main (){
         val b: Int? = strNum[1].toIntOrNull();
 
         if(a!=null && b!=null) {
-             if (a>b) print(a * b) else print(a / b)
+             if (a>b) print(a * b) else print(b / a)
         }
-         
     }
 }
